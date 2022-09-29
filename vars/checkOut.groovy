@@ -1,4 +1,4 @@
-def call(Map params.NAME) {
+def call(Map params) {
 
     checkout([
         $class: 'GitSCM',
