@@ -2,6 +2,6 @@ def call(Map params) {
 
     checkout([
         $class: 'GitSCM',
-        userRemoteConfigs: [[ url: "${params.NAME ]]
+        userRemoteConfigs: [[ url: "${params.NAME} ]]
     ])
   }
